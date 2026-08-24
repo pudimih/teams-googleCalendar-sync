@@ -1,0 +1,42 @@
+# ==========================================
+# Ambiente Virtual
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# Cache e Compilação Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+
+# ==========================================
+# Segredos, Sessões e Tokens (NUNCA COMMITTAR)
+# ==========================================
+.env
+.env.local
+.token_cache.bin
+.token_cache.json
+token.json
+credentials.json
+.teams_browser_session/
+.teams_browser_profile/
+synced_assignments.json
+
+# ==========================================
+# Metadados do Sistema Operacional e IDEs
+# ==========================================
+*.Zone.Identifier
+*.Zone.Identifier:*
+*Zone.Identifier*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
